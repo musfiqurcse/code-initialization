@@ -31,3 +31,4 @@ Running code in conda for openCV , sometime `freeze the system (Ubuntu 18.04).`
 However, It is a known issue
 https://stackoverflow.com/questions/22681611/opencv-cv2-destroyallwindows-doesnt-respond
 (Read the second answer)
+3. Close the window of image after each instruction executed.
