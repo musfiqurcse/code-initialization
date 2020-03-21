@@ -1,6 +1,5 @@
 import numpy as np
 import cv2 as cv
-import matplotlib.pyplot as plt
 
 def close_window():
     cv.destroyAllWindows()
@@ -8,7 +7,7 @@ def close_window():
 
 
 if __name__ == "__main__":
-    print('Give the path of Image: \n')
+    print('Give the path of Image:')
     path_of_file = input()
     # Read an image file using OpenCV
     img_inp = cv.imread(path_of_file)
